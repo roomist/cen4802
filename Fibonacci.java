@@ -1,3 +1,7 @@
+/**
+ * The FibonacciCalculator class provides a static method for calculating the nth term of the Fibonacci sequence.
+ */
+
 public class Fibonacci {
 
     public static int calculateFibonacci(int n) {
