@@ -4,6 +4,13 @@
 
 public class Fibonacci {
 
+    /**
+     * Calculates the nth term of the Fibonacci sequence using a recursive approach.
+     *
+     * @param n The position of the desired Fibonacci term. Must be a non-negative integer.
+     * @return The nth term of the Fibonacci sequence.
+     */
+
     public static int calculateFibonacci(int n) {
         if (n <= 0) {
             return 0;
